@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flask-minimal-example"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Kraus <a.kraus@glp.de>"]
+readme = "README.md"
+packages = [
+    { include = "flask_minimal_example" },
+]
+
+[tool.poetry.dependencies]
+python = "=3.12.3"
+connexion = {extras = ["flask", "swagger-ui", "uvicorn"], version = "=3.2.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

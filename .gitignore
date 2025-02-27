@@ -1,0 +1,5 @@
+.venv
+build
+dist
+flask_minimal_example
+__pycache__
