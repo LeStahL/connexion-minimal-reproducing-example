@@ -2,7 +2,7 @@
 name = "flask-minimal-example"
 version = "0.1.0"
 description = ""
-authors = ["Alexander Kraus <a.kraus@glp.de>"]
+authors = ["Alexander Kraus <nr4@z10.info>"]
 readme = "README.md"
 packages = [
     { include = "flask_minimal_example" },
